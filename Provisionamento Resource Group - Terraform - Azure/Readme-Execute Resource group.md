@@ -35,14 +35,14 @@ Obs: você deverá estar dentro da pasta onde esta o arquivo "resourcegroup.tf"
 Devera instalar o provider plugins para execução
 hashicorp/azurerm v3.92.0.
 
-# Execute o comando abaixo para realizar a validação do
+# O terraform validate válida os arquivos de configuração em um diretório, referindo-se apenas à configuração e não acessando nenhum serviço remoto como estado remoto, APIs do provedor, etc.
 
 ```
 terraform validate
 ```
 
 # O terraform plan cria um plano de execução
-
+'
 ```
 terraform plan
 ```

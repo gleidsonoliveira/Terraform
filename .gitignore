@@ -341,3 +341,5 @@ healthchecksdb
 
 .terraform/
 /Exemple/.terraform
+Provisionamento Resource Group - Terraform - Azure/terraform.tfstate.backup
+Provisionamento Resource Group - Terraform - Azure/.terraform.lock.hcl
