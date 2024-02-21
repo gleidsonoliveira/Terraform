@@ -31,7 +31,7 @@ Obs: Deverá aparecer a mensagem abaixo, você devera clicar no link "https://mi
   }
 ```
 
-## O terraform initcomando inicializa um diretório de trabalho contendo arquivos de configuração do Terraform. Este é o primeiro comando que deve ser executado após escrever uma nova configuração do Terraform ou clonar uma existente a partir do controle de versão. É seguro executar este comando várias vezes.
+## O terraform init inicializa um diretório de trabalho contendo arquivos de configuração do Terraform. Este é o primeiro comando que deve ser executado após escrever uma nova configuração do Terraform ou clonar uma existente a partir do controle de versão. É seguro executar este comando várias vezes.
 
 ```
 terraform init
