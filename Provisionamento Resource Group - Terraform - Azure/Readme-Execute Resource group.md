@@ -1,4 +1,4 @@
-### Realizar o login no azure
+## Realizar o login no azure
 
 ```
 az login --use-device-code
