@@ -1,3 +1,9 @@
+## Sites para pesquisas
+
+```
+https://developer.hashicorp.com/
+```
+
 ## Realizar o login no azure
 
 ```
@@ -25,7 +31,7 @@ Obs: Deverá aparecer a mensagem abaixo, você devera clicar no link "https://mi
   }
 ```
 
-## Execute o comando abaixo para inicializar o terraform.
+## O terraform initcomando inicializa um diretório de trabalho contendo arquivos de configuração do Terraform. Este é o primeiro comando que deve ser executado após escrever uma nova configuração do Terraform ou clonar uma existente a partir do controle de versão. É seguro executar este comando várias vezes.
 
 ```
 terraform init
@@ -50,7 +56,7 @@ terraform plan
 ## O terraform apply executa as ações propostas em um plano Terraform.
 
 ```
-terraform apply
+terraform apply ou terraform apply -auto-approve
 ```
 
 Após execução do comando deverá aparecer a mensagem solicitando confirmação.
@@ -81,3 +87,8 @@ Resultado
 }
 ````
 
+## O terraform destroy é uma maneira conveniente de destruir todos os objetos remotos gerenciados por uma configuração específica do Terraform.
+
+```
+terraform destroy ou terraform destroy -auto-approv
+```
