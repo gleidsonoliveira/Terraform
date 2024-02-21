@@ -5,12 +5,12 @@ provider "azurerm" {
 }
 
 variable "location" {
-  type          = string
+  type        = string
   description = "Localizacao dos Recursos do azure. Ex: brazilsouth"
-  default = "eastus"
+  default     = "eastus"
 }
 
 resource "azurerm_resource_group" "grupo_recurso" {
   name     = "rg-terraform"
- location = var.location  #"brazilsouth"
+  location = var.location #"brazilsouth"
 }
