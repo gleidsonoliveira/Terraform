@@ -6,7 +6,7 @@ Obs: Deverá aparecer a mensagem abaixo, você devera clicar no link "https://mi
 "To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code FD2U474FZ to authenticate."
 ```
 
-# Se tudo ocorrer bem você, será capaz de visualizar a mensagem abaixo dizendo que a autenticação foi realizada com sucesso.
+## Se tudo ocorrer bem você, será capaz de visualizar a mensagem abaixo dizendo que a autenticação foi realizada com sucesso.
 
 ```
  {
@@ -25,7 +25,7 @@ Obs: Deverá aparecer a mensagem abaixo, você devera clicar no link "https://mi
   }
 ```
 
-# Execute o comando abaixo para inicializar o terraform.
+## Execute o comando abaixo para inicializar o terraform.
 
 ```
 terraform init
@@ -35,19 +35,19 @@ Obs: você deverá estar dentro da pasta onde esta o arquivo "resourcegroup.tf"
 Devera instalar o provider plugins para execução
 hashicorp/azurerm v3.92.0.
 
-# O terraform validate válida os arquivos de configuração em um diretório, referindo-se apenas à configuração e não acessando nenhum serviço remoto como estado remoto, APIs do provedor, etc.
+## O terraform validate válida os arquivos de configuração em um diretório, referindo-se apenas à configuração e não acessando nenhum serviço remoto como estado remoto, APIs do provedor, etc.
 
 ```
 terraform validate
 ```
 
-# O terraform plan cria um plano de execução
+## O terraform plan cria um plano de execução
 '
 ```
 terraform plan
 ```
 
-# O terraform apply executa as ações propostas em um plano Terraform.
+## O terraform apply executa as ações propostas em um plano Terraform.
 
 ```
 terraform apply
@@ -59,7 +59,7 @@ Após execução do comando deverá aparecer a mensagem solicitando confirmaçã
 enter a value: aqui o valor deverá ser "yes"
 ```
 
-# lista todos os grupos de recursos criados na azure.
+## lista todos os grupos de recursos criados na azure.
 
 ```
 az group list
